@@ -14,7 +14,7 @@ namespace SimpleAPI.Test
         public void GetReturnsMyname()
         {
             IEnumerable returnValue = controller.Get();
-            Assert.Equal("Subbu1","Subbu1");
+            Assert.Equal("Subbu21","Subbu21");
         }
 
 
